@@ -218,6 +218,9 @@ body{
 	width: 85%;
 	margin: 0 auto;
 	background: #fff;
+	min-width: 720px;
+	max-width: 1280px;
+
 }
 
 #marca {
@@ -229,14 +232,12 @@ body{
 }
 
 #conteudo {
-	border: 1px solid red;
-	width: 74%;
+	width: 75%;
 	float: right;
 }
 
 #navegacao {
-	border: 1px solid red;
-	width: 22%;
+	width: 23%;
 	float: left;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -244,12 +245,14 @@ body{
 }
 
 #conteudo-principal {
-	width: 320px;
+	border: 1px solid red;
+	width: 63%;
 	float: left;
 }
 
 #conteudo-secundario {
-	width: 180px;
+	border: 1px solid red;
+	width: 34%;
 	float: right;
 	background: #d1d1d1;
 }
